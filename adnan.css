@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+@media print {
+    #inputs {display: none;}
+    #outputs {display: inline; overflow: scroll;}
+    ::-webkit-scrollbar {width: 0;}
+}
+
+td {
+    text-align: center;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.inputs {
+    margin: 0;
+    width: 100vw;
+    height: 25vh;
+    background-color: aqua;
+    text-align: center;
+}
+
+.table {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    position: relative;
+    margin: auto;
+}
+
+.slider {
+    width: 250px;
+}
+
+.pointer {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-weight: 400;
+}
+
+
+.outputs {
+    background-color: transparent;
+    height: 75vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.outputs::-webkit-scrollbar {
+    width: 0;
+}
+
+
+.r {
+    background-color: transparent;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}

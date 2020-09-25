@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adnan Raksha</title>
+    <script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js@latest/dist/svg.min.js"></script>
+    
+    <link rel="stylesheet" href="./adnan.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./download.jpg" type="image/x-icon">
+
+
+
+</head>
+<body>
+
+    <div class="inputs" id="inputs">
+
+        <table class="table">
+            <tr>
+                <td>
+                    <label for="width-slider">Width</label>
+                </td>
+                <td>
+                    <input type="range" class="slider" id="width-slider" value = "400" min="400" max="600">
+                </td>
+                <td>
+                    <p id="width-slider-pointer" class="pointer">0</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="height-slider">Height</label>
+                </td>
+                <td>
+                    <input type="range" class="slider" id="height-slider" value="100" min="0" max="600">
+                </td>
+                <td>
+                    <p id="height-slider-pointer" class="pointer">0</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="inner-width">Inner-width</label>
+                </td>
+                <td>
+                    <input type="range" class="slider" id="inner-width" value="360" min="100" max="500">
+                </td>
+                <td>
+                    <p id="inner-width-pointer" class="pointer">0</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="inner-height">Inner-height</label>
+                </td>
+                <td>
+                    <input type="range" class="slider" id="inner-height" value="60" min="0" max="600">
+                </td>
+                <td>
+                    <p id="inner-height-pointer" class="pointer">0</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="output-slider">Adjust the number of outputs</label>
+                </td>
+                <td>
+                    <input type="number" class="slider" id="output-counter" value="1">
+                </td>
+                <td>
+                    <p id="output-pointer" class="pointer">0</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="outputs" id="outputs">
+        <div class="ola" id="ola">
+            <div id="r1" class="r"></div>
+        </div>
+    </div>
+
+
+    <script src="./pre.js"></script>
+    <script src="./adnan.js"></script>
+    
+</body>
+</html>
